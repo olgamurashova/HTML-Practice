@@ -10,11 +10,11 @@
         
     </head>
     <body>
-        <h1>Good morning beautiful!</h1>
+        <header>
+            <h1>Good morning beautiful!</h1>
 
-        <hr>
          <!--Navigation Area nav-->
-        <nav>
+        <nav aria-label="primary-navigation">
             <ul>
                 <li><a href="#intro">Intro</a></li>
                 <li><a href="#ordered list">Ordered List</a></li>
@@ -24,12 +24,14 @@
             </ul>
         </nav>
 
-        <hr>
-
+        </header>
+    <hr>
+    <main>
         <p><em>Rise and Shine!</em></p>
 <!--adding horizontal line using <hr>-->
         <hr>
-        <section id="intro">
+
+        <article id="intro">
         <h2>It is a beautiful day</h2>
         <p>Smile and Shine
             <!--adding space in front of a paragraph using &nbsp;-->
@@ -38,9 +40,10 @@
             <br>&nbsp; &nbsp; &nbsp;Repeat
 
         </p>
-    </section>
+        </article>
+
         <hr>
-    <section id="ordered list">
+    <article id="ordered list">
         <p><h4>Ordered List</h4></p>
         <ol><!--ordered list-->
            <li>Do html course</li> 
@@ -56,7 +59,17 @@
            <li>Finish reports</li>
            <li>Call mom</li>
         </ol>
-    </section>
+        <aside>
+            <details>
+                <summary>Guess the <mark>number of hours</mark> I code per day</summary>
+                <p>I start coding at <time datetime="20:00">8 pm</time> and I write code for <time datetime="PT3H">2 hours</time>.</p>
+
+            </details>
+        </aside>
+
+
+    </article>
+
         <hr>
     <section id="unordered list">
          <p><h4>Unordered List</h4></p> 
@@ -66,6 +79,7 @@
             <li>text Zenaida</li>
          </ul>
     </section>
+    
          <hr>
     <section id="meet me">
         <h3>Today you are going to meet me</h3>
@@ -104,13 +118,15 @@
     <a href="https://linkedin.com" target="_blank">LinkedIn</a>
     <a href="https://github.com" target="_blank">GitHub</A>
 </dl>
+</main>
  <hr>   
-        &lt;&lt;&lt; &copy; <a href="about.html" target="_blank">Olga M </a>&gt;&gt;&gt;
-        <p>
-            <a href="#">Back to Top</a>
-       
+<footer>
 
+        <p>&lt;&lt;&lt; &copy; <a href="about.html" target="_blank">Olga M </a>&gt;&gt;&gt;</p>
+        <p><a href="#">Back to Top</a></p>
+           
+</footer>
     </body>
 </html>
 
-<!--loading lazy == when we want image to open up when scrolling down-->
+<!--loading="lazy" == when we want image to open up when scrolling down-->

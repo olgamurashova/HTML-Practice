@@ -9,49 +9,67 @@
 </head>
 <body>
    <table> <!--tr==table row-->
+    <caption>My Daily Schedule</caption>
+    <thead><!--thead==table head-->
     <tr>
         <!--th==table header-->
-        <th>Time</th>
-        <th>Activity</th>
+        <th>&nbsp;</th>
+        <th scope="col">Time</th>
+        <th scope="col">Activity</th>
     </tr>
+    </thead>
+
+    <tbody>
     <tr> <!--tr==table row-->
+        <th scope="row">Morning-Afternoon</th>
         <td> <!--td==table data-->
             <time datetime="09:00">9am</time>-<time datetime="17:00">5pm</time>
         </td>
         <td>Work in the office</td>
     </tr>
     <tr>
+        <th scope="row">Evening</th>
         <td> <!--td==table data-->
             <time datetime="18:00">6pm</time>-<time datetime="21:00">9pm</time>
         </td>
         <td>Groceries/Walk/Eat/Rest/Cook</td>
     </tr>
     <tr>
+        <th scope="row">Evening</th>
         <td> <!--td==table data-->
             <time datetime="21:00">9pm</time>-<time datetime="21:30">9:30pm</time>
         </td>
         <td>Shower</td>
     </tr>
     <tr>
+        <th scope="row">Night</th>
         <td> <!--td==table data-->
             <time datetime="21:45">9:45pm</time>-<time datetime="23:30">11:30pm</time>
         </td>
         <td>Studing/Coding</td>
     </tr>
         <tr>
+            <th scope="row"> Sleep Time</th>
             <td> <!--td==table data-->
-                <time datetime="24:00">12am</time>-<time datetime="07:00">7am</time>
+                <time datetime="12:00">12am</time>-<time datetime="07:00">7am</time>
             </td>
-            <td>Groceries/Walk/Eat/Rest/Cook</td>
+            <td>Sleep</td>
         </tr>
         <tr>
+            <th>Evening</th>
             <td rowspan="2"> All other times</td>
             <td>Self-care</td>
         </tr>
         <tr>
+            <th>Weekends</th>
             <td>Movie</td>
         </tr>
-    
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Life is beautiful. Enjoy and appreciate little things. Strive for better. Evolve, nurture your mind, get out of your comfort zone.</td>
+        </tr>
+    </tfoot>
    </table> 
 </body>
 </html>

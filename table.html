@@ -9,11 +9,17 @@
 </head>
 <body>
    <table> <!--tr==table row-->
+    <tr>
+        <!--th==table header-->
+        <th>Time</th>
+        <th>Activity</th>
+    </tr>
     <tr> <!--tr==table row-->
         <td> <!--td==table data-->
             <time datetime="09:00">9am</time>-<time datetime="17:00">5pm</time>
         </td>
         <td>Work in the office</td>
+    </tr>
     <tr>
         <td> <!--td==table data-->
             <time datetime="18:00">6pm</time>-<time datetime="21:00">9pm</time>
@@ -31,16 +37,21 @@
             <time datetime="21:45">9:45pm</time>-<time datetime="23:30">11:30pm</time>
         </td>
         <td>Studing/Coding</td>
+    </tr>
         <tr>
             <td> <!--td==table data-->
                 <time datetime="24:00">12am</time>-<time datetime="07:00">7am</time>
             </td>
             <td>Groceries/Walk/Eat/Rest/Cook</td>
         </tr>
-    </tr>
-
-
-    </tr>
+        <tr>
+            <td rowspan="2"> All other times</td>
+            <td>Self-care</td>
+        </tr>
+        <tr>
+            <td>Movie</td>
+        </tr>
+    
    </table> 
 </body>
 </html>

@@ -12,6 +12,8 @@
         <p>We would like to hear from you!</p>
         
         <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
         <p>
             <label for="firstName">First Name:</label>
             <input type="text" name="firstName" id="firstName" placeholder="Enter your name here" autocomplete="on" required autofocus>
@@ -32,8 +34,8 @@
             <label for="decade">Favorite Decade:</label>
             <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
         </p>
-        <!-- <p>
-            <label for="coffee">Fvorite Coffee</label>
+         <p>
+            <label for="coffee">Favorite Coffee</label>
             <select name="coffee" id="coffee" multiple size="5">
                 <optgroup label="Coffees">
                     <option value="regular coffee">Regular Coffee</option>
@@ -47,9 +49,9 @@
                 <option value="other">Other</option>
             
             </select>
-        </p> -->
+        </p>
         <p>
-            <label for="coffee">Fvorite Coffee</label>
+            <label for="coffee">Favorite Coffee</label>
             <input type="text" name="coffee" id="coffee" list="coffee-list">
             <datalist id="coffee-list">
                 <option value="Regular Coffee">
@@ -61,6 +63,29 @@
             
             </datalist>
         </p>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>What is your favorite food</legend>
+        <p>
+            <input type="radio" name="food" id="Sushi" value="Sushi">
+            <label for="Sushi">Sushi</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="Pasta" value="Pasta">
+            <label for="Pasta">Pasta</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="Kebab" value="Kebab">
+            <label for="Kebab">Kebab</label>
+        </p>
+        <p>
+            <input type="radio" name="food" id="Other" value="Other">
+            <label for="Other">Other</label>
+        </p>
+    </fieldset>
+    <
 
     
         </form>

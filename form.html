@@ -51,8 +51,8 @@
             </select>
         </p>
         <p>
-            <label for="coffee">Favorite Coffee</label>
-            <input type="text" name="coffee" id="coffee" list="coffee-list">
+            <label for="coffe">Favorite Coffee</label>
+            <input type="text" name="coffe" id="coffe" list="coffee-list">
             <datalist id="coffee-list">
                 <option value="Regular Coffee">
                 <option value="Iced Coffee">
@@ -109,8 +109,8 @@
         <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
     </fieldset>
     <br>
-
     <button type="submit">Submit</button>
+    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
     <button type="reset">Reset</button>
     
         </form>
